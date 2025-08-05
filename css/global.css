@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:#4d8b55;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: Oswald, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Sansita Swashed", cursive;
+}
+a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+img{
+    width: 100%;
+}
+body section#About {
+    background-image: url("/imgs/leaves_pattern-469e0d34.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-color: var(--bs-green);
+}
+body section#Services .container .title .shape{
+    width: 45px;
+}
+body section#Services .container .title .shape::after,
+body section#Services .container .title .shape::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+}
+body section#Services .container .title .shape::after{
+    left: 100%;
+    margin-left: 10px;
+}
+body section#Services .container .title .shape::before{
+    right: 100%;
+    margin-right: 10px;
+}
+body section#Menu .container .title .shape{
+    width: 45px;
+}
+body section#Menu .container .title .shape::after,
+body section#Menu .container .title .shape::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+}
+body section#Menu .container .title .shape::after{
+    left: 100%;
+    margin-left: 10px;
+}
+body section#Menu .container .title .shape::before{
+    right: 100%;
+    margin-right: 10px;
+}
+body section#Book{
+    background-image: url("/imgs/black-bg-a502b375.png");
+    background-position: center;
+    background-size: cover;
+}
+body section#Book  .title .shape{
+    width: 45px;
+}
+body section#Book  .title .shape::after,
+body section#Book  .title .shape::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+}
+body section#Book  .title .shape::after{
+    left: 100%;
+    margin-left: 10px;
+}
+body section#Book  .title .shape::before{
+    right: 100%;
+    margin-right: 10px;
+}

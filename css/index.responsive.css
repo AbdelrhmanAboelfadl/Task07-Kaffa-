@@ -1,0 +1,140 @@
+@media (max-width: 1300px) {
+header .carousel-inner .carousel-item .carousel-caption{
+   display: block !important;
+   width: 100% !important;
+}
+header .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 33px;
+}
+header .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 16px;
+}
+header .carousel-inner .carousel-item .carousel-caption button {
+    padding: 3px 5px;
+}
+header nav ul{
+    background-color: black;
+    text-align: center; 
+    border-radius: 10px;
+    border: 3px solid var(--bs-green);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+header nav ul li{
+   width: 90%;
+   margin: auto;
+   margin-block: 10px;
+} 
+header nav img {
+    width: 73%;
+}
+body section#Menu .col{
+    margin: auto;
+}
+body section#Menu ul{
+    width: max-content;
+}
+body section#BeansCoffe h2 {
+    font-size: 31px;
+}
+body section#BeansCoffe h3 {
+    font-size: 34px;
+}
+body section#BeansCoffe i {
+    font-size: 60px;
+   
+}
+body #Book .col1{
+    display: none !important;
+}
+body #Book .container {
+    padding-inline: 30px;
+}
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    body #Book .container {
+    padding-inline: 80px !important;
+}
+
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+header .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 45px;
+}
+header .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 21px;
+}
+header .carousel-inner .carousel-item .carousel-caption button {
+    padding: 5px 7px;
+}
+body section#Services img{
+    width: 60% !important;
+}
+body section#Services .container .title .shape img{
+    width: 100% !important;
+}
+body section#Menu .col{
+    margin: 0;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+header .carousel-inner .carousel-item .carousel-caption {
+    width: 100% !important;
+}
+header .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 49px;
+}
+header .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 19px;
+}
+header .carousel-inner .carousel-item .carousel-caption button {
+    padding: 5px 10px;
+}
+body section#Services img{
+    width: 60% !important;
+}
+body section#BeansCoffe h2 {
+      font-size: 52px;
+}
+
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+header .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 60px;
+}
+header .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 22px;
+}
+header .carousel-inner .carousel-item .carousel-caption button {
+    padding: 10px 15px;
+}
+header nav ul{
+    background-color: transparent;
+    text-align: center; 
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+header nav ul li{
+   width: 100%;
+   margin: 0;
+   margin-block:0 ;
+   padding: 0;
+} 
+.navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        width: 97%;
+        margin-inline: 0;
+    }
+body section#Services img{
+    width: 100% !important;
+}
+    body #Book .col1 {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px){}

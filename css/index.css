@@ -1,0 +1,430 @@
+header nav .nav-link{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+header nav button:focus{
+    box-shadow: none !important;
+}
+header nav .nav-link::before,
+header nav .nav-link .shape,
+header nav .nav-link::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: calc(100% / 3);
+  background-color: var(--bs-green);
+  position: absolute;
+  transition-duration: 0.5s;
+}
+header nav .nav-link::before{
+    top: 0;
+    left: -100%;
+}
+header nav .nav-link::after{
+    bottom: 0;
+    left: -100%;
+}
+header nav .nav-link .shape{
+    top: 50%;
+    transform: translateY(-50%);
+    right: -100%;
+    height: 35%;
+}
+header nav .nav-link .text{
+    position: relative;
+    z-index: 999;
+}
+header nav .nav-link:hover::after,
+header nav .nav-link:hover::before{
+    left: 0;
+}
+header nav .nav-link:hover .shape{
+    right: 0;
+  
+}
+header .carousel-inner .carousel-item{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .carousel-inner .carousel-item:nth-of-type(1){
+background-image: url("../imgs/banner1-a2f56ce7.jpg");
+}
+header .carousel-inner .carousel-item:nth-of-type(2){
+background-image: url("../imgs/banner2-d06af301.jpg");
+}
+header .carousel-inner .carousel-item:nth-of-type(3){
+background-image: url("../imgs/banner3-9419d6ac.jpg");
+
+}
+header .carousel-inner .carousel-item:nth-of-type(4){
+background-image: url("../imgs/banner4-dc772093\ \(1\).jpg");
+}
+header .carousel-inner .carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.667);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header .carousel-inner .carousel-item .carousel-caption{
+    position: initial;
+}
+header .carousel-inner .carousel-item .carousel-caption >*{
+    transform: translateY(-30px);
+    opacity: 0;
+    transition-duration: 1s;
+}
+header .carousel-inner .carousel-item .container .carousel-caption h1{
+    transition-delay: 0.2s;
+}
+header .carousel-inner .carousel-item .container .carousel-caption p{
+    transition-delay: 0.4s;
+}
+header .carousel-inner .carousel-item .container .carousel-caption .buttons{
+    transition-delay: 0.6s;
+}
+header .carousel-inner .carousel-item.active .carousel-caption >*{
+    transform: translateY(0px);
+    opacity: 1;
+}
+header .carousel-inner .carousel-item .carousel-caption>*{
+    margin-bottom: 30px;
+}
+header .carousel-inner .carousel-item .carousel-caption h1{
+    font-size: 70px;
+    color: var(--main-color);
+}
+header .carousel-inner .carousel-item .carousel-caption p{
+    font-size: 22px;
+}
+header .carousel-inner .carousel-item .carousel-caption button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    color: var(--main-color);
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 400;
+    position: relative;
+    overflow: hidden;
+}
+header .carousel-inner .carousel-item .carousel-caption button a{
+    transition: all 1s;  z-index: 999;  position: relative;
+}
+header .carousel-inner .carousel-item .carousel-caption button:hover a{
+    color: white;
+}
+header .carousel-inner .carousel-item .carousel-caption button:hover::after{
+    left: 0;
+}
+header .carousel-inner .carousel-item .carousel-caption button:hover::before{
+    right: 0;
+}
+header .carousel-inner .carousel-item .carousel-caption .buttons >*::after,
+header .carousel-inner .carousel-item .carousel-caption .buttons >*::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border: 25px solid var(--main-color);
+    transition: 1s;
+}
+header .carousel-inner .carousel-item .carousel-caption .buttons >*::before{
+    right: 100%;
+    border-right:28px solid transparent ;
+}
+header .carousel-inner .carousel-item .carousel-caption .buttons >*::after{
+    left: 100%;
+    border-left:28px solid transparent;
+}
+header #carouselExampleCaptions .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: var(--bs-green);
+    margin-right: 10px;
+    position: relative;
+}
+body section#About .container .row .item .buttonspan{
+    position: relative;
+
+    overflow: hidden;
+}
+body section#About .container .row .item .buttonspan:hover::before{
+    top: 0;
+}
+body section#About .container .row .item .buttonspan:hover p{
+    color: var(--bs-green);
+}
+body section#About .container .row .item .buttonspan:hover::after{
+    bottom:0;
+}
+body section#About .container .row .item .buttonspan p{
+  position: relative;
+  z-index: 999;
+  
+}
+body section#About .container .row .item .buttonspan::before,
+body section#About .container .row .item .buttonspan::after{
+    content: "";
+    width: 100%;
+    height: 50%;
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+body section#About .container .row .item .buttonspan::before{
+    top: -50%;
+}
+body section#About .container .row .item .buttonspan::after{
+    bottom: -50%;
+}
+body section.About .cart{
+    width: 200px;
+    height:380px;
+    position: relative;
+}
+body section.About .cart:hover .front{
+    transform: rotateY(180deg);
+}
+body section.About .cart:hover .back{
+    transform: rotateY(0);
+}
+body section.About .cart .front{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    transition: all 1s;
+}
+body section.About .box:nth-of-type(1) .front{
+    background-image: url("/imgs/about_front_01-306d5b8a.jpg");
+}
+body section.About .box:nth-of-type(2) .front{
+    background-image: url("/imgs/coffee_1-c62ba359.jpg");
+}
+body section.About .box:nth-of-type(3) .front{
+    background-image: url("/imgs/coffee_2-5baa1bab.jpg");
+}
+body section.About .cart .back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    transition: all 1s;
+}
+body section.About  .box:nth-of-type(1) .back .body{
+    background-color: #404042;
+    color: white;
+}
+body section.About  .box:nth-of-type(2) .back .body{
+    background-color: #88774b;
+    color: white;
+}
+body section.About  .box:nth-of-type(3) .back .body{
+    background-color: #6d1f37;
+    color: white;
+}
+body section.About .cart .back .body button{
+    transition:all 0.5s;
+}
+body section.About .cart .back .body button:hover{
+    background-color: white;
+    color: wheat;
+}
+body section.About .cart .back .body button i,p{
+    transition: all 0.5s;
+}
+body section.About .cart .back .body button i{
+    margin-left: 2px;
+}
+body section.About .cart .back .body button:hover i{
+    color: #404042;
+    margin-left: 6px;
+}
+body section.About .cart .back .body button:hover p{
+    color: #404042;
+} 
+body section#Services{
+    background-image: url("/imgs/beans_bg-aaa84446.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+body section#Services::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+body section#Services i{
+    color: var(--bs-green);
+    font-size: 40px;
+}
+body section#Services .container h2,p{
+    color: white;
+    font-weight: 200;
+}
+body section#Services .container p{
+    color: #b4b4b4;
+}
+body section#Services .container .row .col img{
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+body section#Menu{
+    background-image: url("/imgs/leaves_pattern-469e0d34.png");
+    background-position: center;
+    background-color: var(--bs-green);
+}
+body section#Menu .col .item img{
+  transform: scale(0.8);
+  transition-duration: 1s;
+}
+body section#Menu .col{
+    transform: scale(0);
+    transition-duration: 1s;
+}
+#Menu .tab-pane.show .col{
+    transform: scale(1);
+}
+body section#Menu ul{
+    width: fit-content;
+}
+body section#Menu .nav-link.active{
+    background-color: white;
+    color: var(--bs-green);
+    
+}
+body section#Menu .nav-link{
+    color: white;
+    transition-duration: 0.5s;
+}
+body section#Menu .nav-link:hover{
+    color: var(--bs-green);
+    background-color: white;
+} 
+body section#Menu .item:hover img{
+    transform: scale(1);
+}
+body section#Menu .item:hover h6{
+    transform: translateX(0);
+}
+body section#Menu .item:hover p{
+    transform: translateX(0);
+}
+body section#Menu h6 {
+   position: absolute;
+   top: 20px;
+   left: 0;
+   padding: 5px 15px ;
+   background-image: url("/imgs/leaves_pattern-469e0d34.png");
+   background-position: center;
+   background-color: var(--bs-green);
+   border-radius: 0px 10px 10px 0px;
+   color: rgb(250, 242, 215);
+   transition-duration: 0.5s; 
+   transform: translateX(-100%);
+   z-index: 3;
+}
+body section#Menu p {
+    position: absolute;
+    bottom:10px;
+    left: 0;
+    padding: 5px 15px ;
+    background-image: url("/imgs/leaves_pattern-469e0d34.png");
+    background-position: center;
+    background-color: var(--bs-green);
+    border-radius: 0px 10px 10px 0px;
+    color: rgb(250, 242, 215);
+    transform: translateX(-100%);
+}
+body section#BeansCoffe{
+    background-image: url("/imgs/ice_drinks_bg-a22d2b06.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+body section#BeansCoffe::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+body section#BeansCoffe h2{
+    font-size: 60px;
+    font-weight:bolder;
+    letter-spacing: 1.5px;
+    color: #4d8b55;
+    text-shadow: 3px 3px 1px #362d27;
+}
+body section#BeansCoffe h3{
+    font-size: 60px;
+    
+}
+body section#BeansCoffe i{
+    color: white;
+    font-size: 90px;
+    margin-top: 10px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+body section#BeansCoffe i:hover{
+    color: var(--bs-green);
+}
+body section#Book .container .row .col{
+  background-image: url("/imgs/leaves_pattern-469e0d34.png");
+  background-position: center;
+    background-size: cover;
+    background-color: var(--bs-green); 
+}
+body section#Book form input:not(:last-child):focus,
+body section#Book form textarea:focus{
+    outline: 0;
+    border: 0;
+    resize: none;
+}
+body section#Book form input:last-child{
+    border: 0;
+    color: white;
+    position: relative;
+    background-color: transparent;
+    border: 2px white solid;
+    transition-duration: 0.5s;
+}
+body section#Book form input:last-child:hover{
+    background-color: var(--bs-green);
+}
+body section#Book form input:last-child:focus{
+    transform: scale(0.8);
+}
+

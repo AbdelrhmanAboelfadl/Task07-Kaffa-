@@ -210,13 +210,13 @@ body section.About .cart .front{
     transition: all 1s;
 }
 body section.About .box:nth-of-type(1) .front{
-    background-image: url("/imgs/about_front_01-306d5b8a.jpg");
+    background-image: url("../imgs/about_front_01-306d5b8a.jpg");
 }
 body section.About .box:nth-of-type(2) .front{
-    background-image: url("/imgs/coffee_1-c62ba359.jpg");
+    background-image: url("../imgs/coffee_1-c62ba359.jpg");
 }
 body section.About .box:nth-of-type(3) .front{
-    background-image: url("/imgs/coffee_2-5baa1bab.jpg");
+    background-image: url("../imgs/coffee_2-5baa1bab.jpg");
 }
 body section.About .cart .back{
     position: absolute;
@@ -261,7 +261,7 @@ body section.About .cart .back .body button:hover p{
     color: #404042;
 } 
 body section#Services{
-    background-image: url("/imgs/beans_bg-aaa84446.jpg");
+    background-image: url("../imgs/beans_bg-aaa84446.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,7 +296,7 @@ body section#Services .container .row .col img{
     animation-direction: alternate;
 }
 body section#Menu{
-    background-image: url("/imgs/leaves_pattern-469e0d34.png");
+    background-image: url("../imgs/leaves_pattern-469e0d34.png");
     background-position: center;
     background-color: var(--bs-green);
 }
@@ -363,7 +363,7 @@ body section#Menu p {
     transform: translateX(-100%);
 }
 body section#BeansCoffe{
-    background-image: url("/imgs/ice_drinks_bg-a22d2b06.jpg");
+    background-image: url("../imgs/ice_drinks_bg-a22d2b06.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -402,7 +402,7 @@ body section#BeansCoffe i:hover{
     color: var(--bs-green);
 }
 body section#Book .container .row .col{
-  background-image: url("/imgs/leaves_pattern-469e0d34.png");
+  background-image: url("../imgs/leaves_pattern-469e0d34.png");
   background-position: center;
     background-size: cover;
     background-color: var(--bs-green); 

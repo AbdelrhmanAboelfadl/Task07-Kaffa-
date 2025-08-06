@@ -26,7 +26,7 @@ img{
     width: 100%;
 }
 body section#About {
-    background-image: url("/imgs/leaves_pattern-469e0d34.png");
+    background-image: url("../imgs/leaves_pattern-469e0d34.png");
     background-position: center;
     background-repeat: repeat;
     background-color: var(--bs-green);
@@ -74,7 +74,7 @@ body section#Menu .container .title .shape::before{
     margin-right: 10px;
 }
 body section#Book{
-    background-image: url("/imgs/black-bg-a502b375.png");
+    background-image: url("../imgs/black-bg-a502b375.png");
     background-position: center;
     background-size: cover;
 }

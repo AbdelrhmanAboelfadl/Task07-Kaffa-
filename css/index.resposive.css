@@ -1,0 +1,270 @@
+@media (max-width: 1300px) {
+header .carousel-inner .carousel-item:nth-of-type(1) h1 {
+    font-size: 39px;
+}
+header .carousel-inner .carousel-item:nth-of-type(1) p {
+    font-size: 14px;
+}
+header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col.secound{
+    display: none!important;
+}
+header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col .boxtext{
+    padding-top: 30px;
+}
+.font-3 {
+    font-size: 54px;
+}
+header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col img {
+    transform: translateY(-200%);
+}
+header .carousel-inner .carousel-item:nth-of-type(3) .container .row .col.first{
+    display: none!important;
+}
+.font-4 {
+    font-size: 29px;
+}
+header .carousel-inner .carousel-item:nth-of-type(3) .container .row .col p{
+    font-size: 12px;
+}
+header .carousel-inner .carousel-item:nth-of-type(3) .col .box .boxicons img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+#About .container .row .col .font-4 {
+    font-size: 21px;
+    font-weight: 500;
+}
+#About .container .row .col p {
+    font-size: 13px;
+}
+#About .container .row .col .img img {
+    width: 25px;
+    padding-bottom: 2px;
+}
+#About .container .row.mediarow .col h4 {
+    font-size: 17px;
+}
+#About .container .row button {
+    padding: 8px;
+}
+#About .container .row .col.secound .box {
+    height: 210px;
+}
+#About .container .row .col.secound .box h3 {
+    font-size: 23px;
+}
+section#Testimonials .row .col .cover {
+    width: 280px;
+    margin: auto;
+}
+#Testimonials video {
+    display: none;
+}
+#Testimonials{
+    background-image: url("../images/video_image-min.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#Team .row .chef:not(:last-child) .item {
+    margin-bottom: 50px;
+
+}
+#Team .row .chef .item{
+        padding: 15px!important;
+}
+section#Team .container .row .col .item .chefinfo {
+    width: 271px;
+}
+#Team .row .item {
+        max-width: 350px;
+        margin: auto;
+}
+#Order .container .row .col .orderform {
+    width: 100%!important;
+}
+#Order .container .row .col form .container {
+    width: 100%;
+}
+#Order .container .row .col:nth-of-type(2) {
+    display: none;
+}
+footer p{
+    font-size: 13px;
+}
+#Menu .container-fluid .bigcontainer{
+    flex-direction: column !important;
+}
+#Menu .container-fluid .bigcontainer .cover{
+    overflow-x: scroll;
+    width: 100%;
+}
+#Menu .container-fluid .bigcontainer .nav{
+    flex-direction: row !important;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 5px;
+}
+section#Menu .container-fluid .nav-link img {
+    width: 40px;
+}
+section#Menu .container-fluid .nav-link h5{
+    font-size: 17px;
+}
+section#Menu .container-fluid .nav-link{
+    height: 100px;
+}
+section#Menu .container-fluid .nav-link:first-child {
+    border-radius: 5px 0px 0px 5px;
+}
+section#Menu .container-fluid .nav-link:last-child {
+    border-radius: 0px 5px 5px 0px;
+}
+section#Menu .tab-content .tab-pane .container-fluid .row .item {
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+    width: 268px;
+    margin: auto;
+}
+nav .container button.buttonnav i {
+    font-size: 20px;
+    transition: all 0.5s;
+}
+header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col .box{
+    margin-top:  50px;
+}
+header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col img {
+        transform: translateY(-400%);
+    }
+::-webkit-scrollbar{
+    width:0;
+}
+
+}
+@media (min-width: 371px) and (max-width: 1300px) {
+.container{
+    width: 90%;
+}
+header .carousel-inner .carousel-item:nth-of-type(1) p {
+    font-size: 11px;
+}
+section#Team .container .row .col .item .chefinfo {
+    width: 287px;
+}
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+header .carousel-inner .carousel-item:nth-of-type(1) h1 {
+    font-size: 64px;
+}
+header .carousel-inner .carousel-item:nth-of-type(1) p {
+    font-size: 15px;
+}
+.font-3 {
+    font-size: 81px;
+}
+header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col{
+    padding-top: 5px;
+}
+header .carousel-inner .carousel-item:nth-of-type(3) .container .row .col p{
+    font-size: 12px;
+}
+#About .container .row .col.secound .box {
+    height: 266px;
+}
+#Menu .container-fluid .bigcontainer .nav{
+    flex-direction: row !important;
+    width: max-content;
+    margin-inline: 0;
+    margin: auto!important;
+}
+
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+.font-3 {
+    font-size: 67px;
+}
+header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col.secound{
+    display: block!important;
+}
+header .carousel-inner .carousel-item:nth-of-type(3) .container .row .col.first{
+    display: block!important;
+}
+
+section#Menu .tab-content .tab-pane .container-fluid .row .item {
+   
+    width: initial;
+}
+
+section#Team .container .row .col .item .chefinfo {
+    width: 180px;
+}
+section#Team .container .row .col .item .chefinfo h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+section#Team .container .row .col .item .chefinfo h5{
+    font-size: 15px;
+}
+#Order .container .row .col:nth-of-type(2) {
+    display: flex;
+}
+#Order .container .row .col .orderform {
+    width: 85% !important;
+}
+footer p {
+        font-size: 15px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item:nth-of-type(1) h1 {
+    font-size: 85px;
+}
+header .carousel-inner .carousel-item:nth-of-type(1) p {
+    font-size: 20px;
+}
+section#Testimonials .row .col .cover {
+    width: initial;
+    margin: auto;
+}
+section#Testimonials .row .col .cover h3 {
+    font-size: 20px;
+}
+#Testimonials video {
+    display: block;
+}
+#Testimonials{
+    background-image:none;
+}
+#Team .row .chef .item {
+        width: 280px;
+}
+section#Team .container .row .col .item .chefinfo {
+    width: 222px;
+}
+#Menu .container-fluid .bigcontainer{
+    flex-direction: initial !important;
+}
+#Menu .container-fluid .bigcontainer .nav{
+    flex-direction: column !important;
+    margin-inline:10px !important;
+}
+#Menu .container-fluid .bigcontainer .cover{
+    width: initial;
+    overflow: hidden;
+}
+section#Menu .container-fluid .nav-link:first-child {
+    border-radius: 5px 5px 0px 0px;
+}
+section#Menu .container-fluid .nav-link:last-child {
+    border-radius: 0px 0px 5px 5px;
+}
+}
+
+@media (min-width: 1181px) and (max-width:1300px){}

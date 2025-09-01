@@ -1,180 +1,101 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 :root{
-    --main-color:#eeb301;
-    --secound-color:#333333;
+    --main-color:#4d8b55;
 }
 body{
-    font-family: Poppins, sans-serif;
     scroll-behavior: smooth;
+    font-family: Oswald, sans-serif;
 }
-.font-3{
-    font-family: Roboto,sans-serif;
-    color: #e4c5a6;
-    font-size: 90px;
-    font-weight: bolder;
-}
-.font-4{
-    font-family: Roboto,sans-serif;
-    color: white;
-    font-size: 40px;
-    font-weight: bolder;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: Dancing Script, cursive;
-}
-header .carousel-inner .carousel-item{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-hr{
-    background-color: var(--main-color);
-    height: 5px;
-    opacity: 1;
-    border-radius: 5px;
-}
-nav{
-    z-index: 1000;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Sansita Swashed", cursive;
 }
 a{
     text-decoration: none;
-    color: white;
-}
-#About{
-    background: #0F2027;
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-}
-section#Testimonials{
-    overflow: hidden;
-}
-section#Testimonials::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.74);
-    
-}
-.title h4{
     color: var(--main-color);
 }
-#About .container .title .font-4{
-    font-weight: 500;
-    font-size: 45px;
-}
-#About .container .title .img{
-    width: 60px;
-}
-#About .container .title .img::after,
-#About .container .title .img::before{
-    content: "";
+img{
     width: 100%;
-    height: 3px;
-    background-color: white;
-    display: block;
-    position: absolute;
-    top: 50%;
 }
-#About .container .title .img::after{
-    right: 100%;
-    margin-right: 10px !important;
-    border-radius:2px 0px 0px 2px ;
-}
-#About .container .title .img::before{
-    left: 100%;
-    margin-left: 10px !important;
-    border-radius:0px 2px 2px 0px ;
-}
-#Team{
-    background: #0F2027;
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-}
-#Team .container .title .img{
-    width: 60px;
-}
-#Team .container .title .img::after,
-#Team .container .title .img::before{
-    content: "";
-    width: 100%;
-    height: 3px;
-    background-color: white;
-    display: block;
-    position: absolute;
-    top: 50%;
-}
-#Team .container .title .img::after{
-    right: 100%;
-    margin-right: 10px !important;
-    border-radius:2px 0px 0px 2px ;
-}
-#Team .container .title .img::before{
-    left: 100%;
-    margin-left: 10px !important;
-    border-radius:0px 2px 2px 0px ;
-}
-#Order{
-    background-image: url("../images/bg_wood.jpg");
+body section#About {
+    background-image: url("../imgs/leaves_pattern-469e0d34.png");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-color: var(--bs-green);
+}
+body section#Services .container .title .shape{
+    width: 45px;
+}
+body section#Services .container .title .shape::after,
+body section#Services .container .title .shape::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+}
+body section#Services .container .title .shape::after{
+    left: 100%;
+    margin-left: 10px;
+}
+body section#Services .container .title .shape::before{
+    right: 100%;
+    margin-right: 10px;
+}
+body section#Menu .container .title .shape{
+    width: 45px;
+}
+body section#Menu .container .title .shape::after,
+body section#Menu .container .title .shape::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+}
+body section#Menu .container .title .shape::after{
+    left: 100%;
+    margin-left: 10px;
+}
+body section#Menu .container .title .shape::before{
+    right: 100%;
+    margin-right: 10px;
+}
+body section#Book{
+    background-image: url("../imgs/black-bg-a502b375.png");
+    background-position: center;
     background-size: cover;
 }
-#Order .container .title .img{
-    width: 60px;
+body section#Book  .title .shape{
+    width: 45px;
 }
-#Order .container .title .img::after,
-#Order .container .title .img::before{
+body section#Book  .title .shape::after,
+body section#Book  .title .shape::before{
     content: "";
-    width: 105%;
+    width: 100%;
     height: 3px;
-    background-color: white;
     display: block;
     position: absolute;
     top: 50%;
-}
-#Order .container .title .img::after{
-    right: 100%;
-    margin-right: 10px !important;
-    border-radius:2px 0px 0px 2px ;
-}
-#Order .container .title .img::before{
-    left: 100%;
-    margin-left: 10px !important;
-    border-radius:0px 2px 2px 0px ;
-}
-#Menu{
-    background: #0F2027;
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-}
-#Menu .container-fluid .title .img{
-    width: 60px;
-}
-#Menu .container-fluid .title .img::after,
-#Menu .container-fluid .title .img::before{
-    content: "";
-    width: 105%;
-    height: 3px;
     background-color: white;
-    display: block;
-    position: absolute;
-    top: 50%;
 }
-#Menu .container-fluid .title .img::after{
-    right: 100%;
-    margin-right: 10px !important;
-    border-radius:2px 0px 0px 2px ;
-}
-#Menu .container-fluid .title .img::before{
+body section#Book  .title .shape::after{
     left: 100%;
-    margin-left: 10px !important;
-    border-radius:0px 2px 2px 0px ;
+    margin-left: 10px;
+}
+body section#Book  .title .shape::before{
+    right: 100%;
+    margin-right: 10px;
 }

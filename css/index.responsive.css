@@ -27,6 +27,9 @@ header nav ul li{
 header nav img {
     width: 73%;
 }
+body section#Services .container .row .col:nth-of-type(3) .row{
+    flex-direction: row!important;
+}
 body section#Menu .col{
     margin: auto;
 }

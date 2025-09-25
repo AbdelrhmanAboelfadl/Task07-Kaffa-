@@ -209,7 +209,7 @@ body section#About .container .row .item .buttonspan:hover::after {
 body section#About .container .row .item .buttonspan p {
     position: relative;
     z-index: 999;
-
+    transition: all .5s;
 }
 
 body section#About .container .row .item .buttonspan::before,
@@ -232,97 +232,92 @@ body section#About .container .row .item .buttonspan::after {
     bottom: -50%;
 }
 
-body section.About .cart {
-    width: 200px;
-    height: 380px;
-    position: relative;
+body section#About .container .row .col2 .col{
+    padding-inline: 20px;
 }
 
-body section.About .cart:hover .front {
-    transform: rotateY(180deg);
-}
-
-body section.About .cart:hover .back {
-    transform: rotateY(0);
-}
-
-body section.About .cart .front {
-    width: 100%;
-    height: 100%;
+body section#About .container .row .col2 .box {
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+    background-image: url("../imgs/about_front_01-306d5b8a.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    backface-visibility: hidden;
-    transition: all 1s;
-    border-radius: 10px;
-    overflow: hidden;
+    cursor: pointer;
 }
 
-body section.About .box:nth-of-type(1) .front {
-    background-image: url("../imgs/about_front_01-306d5b8a.jpg");
-}
-
-body section.About .box:nth-of-type(2) .front {
+body section#About .container .row .col2 .col:nth-of-type(2) .box {
     background-image: url("../imgs/coffee_1-c62ba359.jpg");
 }
 
-body section.About .box:nth-of-type(3) .front {
+body section#About .container .row .col2 .col:nth-of-type(2) .box .layer .bodycon{
+    background-color: #88774B;
+}
+
+body section#About .container .row .col2 .col:nth-of-type(3) .box .layer .bodycon {
+    background-color: #6D1F37;
+}
+
+body section#About .container .row .col2 .col:nth-of-type(3) .box {
     background-image: url("../imgs/coffee_2-5baa1bab.jpg");
 }
 
-body section.About .cart .back {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 10px;
-    transform: rotateY(-180deg);
-    backface-visibility: hidden;
+body section#About .container .row .col2 .box:hover .layer{
+    transform: translateX(0);
+}
+
+body section#About .container .row .col2 .box .layer{
+    transform: translateX(-100%);
     transition: all 1s;
-    overflow: hidden;
+    
 }
 
-body section.About .box:nth-of-type(1) .back .body {
+body section#About .container .row .col2 .box .layer .bodycon{
     background-color: #404042;
+    text-align: center;
+    padding: 20px 10px;
+    
+}
+
+body section#About .container .row .col2 .box .layer h3{
     color: white;
 }
 
-body section.About .box:nth-of-type(2) .back .body {
-    background-color: #88774b;
-    color: white;
-}
-
-body section.About .box:nth-of-type(3) .back .body {
-    background-color: #6d1f37;
-    color: white;
-}
-
-body section.About .cart .back .body button {
+body section#About .container .row .col2 .box .layer button{
+    background-color: transparent;
+    margin: auto;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 8px;
+    gap: 5px;
     transition: all 0.5s;
 }
 
-body section.About .cart .back .body button:hover {
+body section#About .container .row .col2 .box .layer button i{
+    color: white;
+    padding-top: 2px;
+    transition: all 0.5s;
+}
+
+body section#About .container .row .col2 .box .layer button:hover{
     background-color: white;
-    color: wheat;
 }
 
-body section.About .cart .back .body button i,
-p {
+body section#About .container .row .col2 .box .layer button p{
     transition: all 0.5s;
 }
 
-body section.About .cart .back .body button i {
-    margin-left: 2px;
+body section#About .container .row .col2 .box .layer button:hover p,
+body section#About .container .row .col2 .box .layer button:hover i{
+    color: #404042;
 }
 
-body section.About .cart .back .body button:hover i {
-    color: #404042;
-    margin-left: 6px;
-}
-
-body section.About .cart .back .body button:hover p {
-    color: #404042;
+body section#About .container .row .col2 .box .layer button:hover i{
+    margin-left: 5px;
 }
 
 body section#Services {
@@ -428,7 +423,7 @@ body section#Menu h6 {
     background-position: center;
     background-color: var(--bs-green);
     border-radius: 0px 10px 10px 0px;
-    color: rgb(250, 242, 215);
+    color: rgb(255, 255, 255);
     transition-duration: 0.5s;
     transform: translateX(-100%);
     z-index: 3;
@@ -443,8 +438,9 @@ body section#Menu p {
     background-position: center;
     background-color: var(--bs-green);
     border-radius: 0px 10px 10px 0px;
-    color: rgb(250, 242, 215);
+    color: rgb(255, 255, 255);
     transform: translateX(-100%);
+    transition: all 0.5s;
 }
 
 body section#BeansCoffe {

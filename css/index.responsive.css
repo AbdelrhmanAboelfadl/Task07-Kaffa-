@@ -55,6 +55,18 @@ body #Book .col1{
 body #Book .container {
     padding-inline: 30px;
 }
+body section#About .container .row .col2 .box{
+    width: 250px;
+    margin: auto;
+}
+body section#About .container .row .col2 .col {
+    margin: auto;
+}
+
+body section#About .container .row .col2 .box:nth-of-type(1){
+    margin-top: 20px;
+
+}
 }
 
 @media (min-width: 371px) and (max-width: 1300px) {
@@ -104,7 +116,12 @@ body section#Services img{
 body section#BeansCoffe h2 {
       font-size: 52px;
 }
-
+body section#About .container .row .col2 .box {
+    width: 220px;
+}
+body section#About .container .row .col2{
+    width: 100%;
+}
 }
 
 @media (min-width: 993px) and (max-width: 1300px) {
@@ -138,9 +155,15 @@ header nav ul li{
 body section#Services img{
     width: 100% !important;
 }
-    body #Book .col1 {
-        display: flex !important;
-    }
+body #Book .col1 {
+    display: flex !important;
+}
+body section#About .container .row .col2 .box {
+    width: 190px;
+}
+body section#About .container .row .col2{
+width: 66.66666667%
+}
 }
 
 @media (min-width: 1181px) and (max-width: 1300px){}
